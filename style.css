@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -50,7 +51,7 @@ body {
 }
 
 /* Responsive Common */
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   .container {
     width: 90%;
   }
@@ -59,7 +60,7 @@ body {
     font-size: 16px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .container {
     width: 95%;
   }
@@ -68,7 +69,7 @@ body {
     font-size: 12px;
   }
 }
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 425px) {
   .container {
     width: 100%;
   }
@@ -119,7 +120,7 @@ nav ul .follow span {
   font-weight: 500;
 }
 /* Responsive Nav */
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   nav {
     width: 90%;
     margin: 18px auto;
@@ -132,7 +133,7 @@ nav ul .follow span {
     font-size: 35px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   nav {
     width: 95%;
     margin: 10px auto;
@@ -158,7 +159,7 @@ nav ul .follow span {
     font-size: 12.7px;
   }
 }
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 425px) {
   nav {
     width: 100%;
     margin: 20px auto;
@@ -212,6 +213,9 @@ nav ul .follow span {
   font-size: 20px;
   align-items: center;
 }
+.hero_area .hero_content .list .listItem .icon {
+  cursor: pointer;
+}
 .hero_area .hero_content .btn_group {
   display: flex;
   justify-content: start;
@@ -233,12 +237,12 @@ nav ul .follow span {
     padding: 100px 0px;
   }
 }
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   .hero_area {
     background-size: 520px 540px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .hero_area {
     background-size: 370px 540px;
   }
@@ -258,7 +262,7 @@ nav ul .follow span {
     font-size: 12px;
   }
 }
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 425px) {
   .hero_area {
     background: none;
   }
@@ -297,7 +301,11 @@ nav ul .follow span {
 }
 /* Gamer */
 .gamer {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   padding: 40px 0px;
 }
 .gamer .gamer_img img {
@@ -336,7 +344,7 @@ nav ul .follow span {
 }
 
 /* Responsive Gamer */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .gamer .gamer_img img {
     width: 100%;
   }
@@ -353,7 +361,7 @@ nav ul .follow span {
     font-size: 22px;
   }
 }
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 425px) {
   .gamer .flex {
     flex-direction: column;
     align-items: center;
@@ -435,7 +443,11 @@ nav ul .follow span {
   align-items: center;
   border: 2px solid transparent;
   border-radius: 16px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
 .videos_section .videos .single_video .img_box .hover .icon {
   cursor: pointer;
@@ -457,7 +469,7 @@ nav ul .follow span {
     height: 300px;
   }
 }
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width: 1024px) {
   .videos_section .videos .single_video {
     height: 350px;
   }
@@ -465,7 +477,7 @@ nav ul .follow span {
     height: 250px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .videos_section {
     margin: 60px 0px;
   }
@@ -593,7 +605,7 @@ nav ul .follow span {
     font-size: 15px;
   }
 }
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .play .thumbnail .child {
     bottom: -20.3%;
     right: -21.9%;
@@ -607,7 +619,7 @@ nav ul .follow span {
     max-width: 236px;
   }
 }
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 425px) {
   .play {
     flex-direction: column-reverse;
     align-items: center;
@@ -672,7 +684,7 @@ footer .Policy li a {
   font-weight: 500;
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   footer {
     gap: 1rem;
   }
@@ -701,7 +713,11 @@ footer .Policy li a {
   }
 }
 .games {
-  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
   margin-top: 250px;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -741,7 +757,15 @@ footer .Policy li a {
   color: #ff42a5;
 }
 
-@media only screen and (max-width : 425px) {
+@media only screen and (max-width: 768px) {
+  .games {
+    margin-top: 150px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .games {
+    margin-top: 120px;
+  }
   .games .container {
     width: 95%;
   }
@@ -763,4 +787,4 @@ footer .Policy li a {
   .games .container {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
