@@ -490,11 +490,16 @@ nav ul .follow span {
   .videos_section p {
     font-size: 12px;
   }
+  .videos_section .videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
   .videos_section .videos .single_video {
     height: 300px;
   }
   .videos_section .videos .single_video .img_box {
-    height: 200px;
+    height: 240px;
   }
   .videos_section .videos .single_video .img_box .hover .icon {
     width: 26px;
@@ -518,9 +523,10 @@ nav ul .follow span {
     flex-direction: column;
     width: 70%;
     margin: 0px auto;
+    grid-template-columns: repeat(1, 1fr);
   }
   .videos_section .videos .single_video {
-    height: 250px;
+    height: 300px;
   }
 }
 /* Play */
