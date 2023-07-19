@@ -606,6 +606,9 @@ nav ul .follow span {
   }
 }
 @media only screen and (max-width: 768px) {
+  .play {
+    margin-bottom: 130px;
+  }
   .play .thumbnail .child {
     bottom: -20.3%;
     right: -21.9%;
@@ -625,6 +628,7 @@ nav ul .follow span {
     align-items: center;
     text-align: center;
     gap: 25px;
+    margin-bottom: 110px;
   }
   .play .thumbnail {
     width: 100%;
@@ -643,75 +647,14 @@ nav ul .follow span {
   }
   .play .content h1 {
     width: 100%;
+    max-width: 280px;
   }
   .play .content p {
     width: 100%;
   }
 }
-/* Footer */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-  background-color: black;
-  padding: 100px 0px;
-}
-footer a {
-  text-decoration: none;
-}
-footer p {
-  color: rgba(255, 255, 255, 0.6);
-}
-footer ul {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  justify-content: center;
-  align-items: center;
-}
-footer .menu li a {
-  color: #fff;
-  font-size: 18px;
-}
-footer .Policy {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-footer .Policy li a {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  font-weight: 500;
-}
 
-@media only screen and (max-width: 768px) {
-  footer {
-    gap: 1rem;
-  }
-  footer ul {
-    gap: 1rem;
-  }
-  footer .menu li a {
-    font-size: 16px;
-  }
-  footer .social li a img {
-    width: 28px;
-  }
-  footer .Policy li a {
-    font-size: 14px;
-  }
-}
-@media only screen and (max-width: 530px) {
-  footer p {
-    font-size: 12px;
-  }
-  footer ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  footer .Policy {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
+/* Games */
 .games {
   background: linear-gradient(
     90deg,
@@ -787,4 +730,75 @@ footer .Policy li a {
   .games .container {
     width: 100%;
   }
-} /*# sourceMappingURL=style.css.map */
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: black;
+  padding: 100px 0px;
+}
+footer a {
+  text-decoration: none;
+}
+footer p {
+  color: rgba(255, 255, 255, 0.6);
+}
+footer ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+footer .menu li a {
+  color: #fff;
+  font-size: 18px;
+}
+footer .Policy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+footer .Policy li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    gap: 1rem;
+  }
+  footer ul {
+    gap: 1rem;
+  }
+  footer .menu li a {
+    font-size: 16px;
+  }
+  footer .social li a img {
+    width: 28px;
+  }
+  footer .Policy li a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  footer p {
+    font-size: 12px;
+  }
+  footer ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer .Policy {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  footer {
+    text-align: center;
+  }
+}
